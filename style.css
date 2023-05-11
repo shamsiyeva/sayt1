@@ -4,7 +4,7 @@
 }
 
 .charos{
-  background-image: url("/sayt1/img/hmmm.jpg");
+  background-image: url("img/hmmm.jpg");
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -20,7 +20,7 @@
   margin-top: -14%
 }
 .box{
-background-image: url('file:///C:/Users/jw848/Downloads/Rectangle%2013%20(1).png');
+background-image: url('');
 height: 80vh;
 width: 100%;
 background-size: cover;
