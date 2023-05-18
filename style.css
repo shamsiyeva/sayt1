@@ -2,19 +2,24 @@
   margin: 0%;
   padding: 0%;
 }
-
-.charos{
-  background-image: url("img/hmmm.jpg");
-  height: 100vh;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+.big__div{
+  position: absolute;
 
 }
 .umru{
-  width:10%;
+  width:15%;
   border-radius: 50%;
-  margin-left: 45%;
+  margin-left: 65%;
+  margin-top: -100rem;
+  display: inline;
+   
+}
+@media only screen and (max-with:800px)  {
+  .umru{
+    width:5%;
+    border-radius: 50%;
+   display: flex;
+  } 
 }
 .tr{
   margin-top: -14%
@@ -84,6 +89,9 @@ display: flex;
   color: white;
   text-decoration: none;
 }
+.par_1{
+  margin-top: 1rem;
+}
 .vernu{
   width:10%;
   border-radius: 50%;
@@ -119,9 +127,8 @@ display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 34px;
-  margin-left: 450px;
-  
-  display: inline;
+margin-left: 30rem;
+display: block;
 }
 .span__01{
  margin-top: 5px;
@@ -194,13 +201,17 @@ display: flex;
 margin-left: 250px;
 
 }
-
+.nauwnik{
+  margin-top: 30rem;
+  position: absolute;
+}
 
 .dgg1{
 display: flex;
 margin-left: 900px;
-margin-top: -630px;
+margin-top: 50rem;
 height: 600px;
+width: 450px;
 }
 
 
@@ -211,7 +222,9 @@ height: 600px;
 }
 
 
-
+.kotttadicccc{
+  margin-top: 5rem;
+}
 
 /* header */
 
@@ -333,7 +346,11 @@ height: 600px;
 }
 .geliikkkkk{
   margin-left: 290px;
-  margin-top: -210px;
+  margin-top: -110px;
+}
+.naushnikimtopiladimiozi{
+  margin-top: -6rem;
+  position: absolute;
 }
 .chiziq{
   margin-left: 290px;
@@ -342,8 +359,9 @@ height: 600px;
 }
 #gelikqaconolaman{
   margin-left: 850px;
-  margin-top: -250px;
+  margin-top: -100px;
   font-weight: 900;
+  display: flex;
 }
 .gelikbuy{
   margin-left: 50em;
@@ -404,12 +422,13 @@ height: 600px;
 font-weight: 400;
 font-size: 42px;
 line-height: 57px;
-margin-top: -11em;
+margin-top: -7em;
 color: white;
 margin-left: 10em;
 }
 .nav__link009182{
-  margin-top: 19em;
+  margin-top: 70px;
+  position: absolute;
   margin-left: 1em;
 }
 .charosvssafiya{
@@ -440,4 +459,23 @@ margin-top: 5em;
 }
 .img__9900{
 background-image: 12px;
+}
+.alvido{
+  margin-top: -750px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
 }
